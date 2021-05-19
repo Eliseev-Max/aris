@@ -1,0 +1,18 @@
+Метка_времени;Тип_события;Направление_передачи;Содержание
+"	55:17.975";CONNECTION_OPENED;;
+"	55:20.947";U_FRAME;Отправлено клиентом;STARTDT_ACT
+"	55:20.950";U_FRAME;Получено клиентом;STARTDT_CON
+"	55:20.950";I_FRAME_PROCESS_INFO_MON_DIR;Получено клиентом;N(S) = 0, N(R) = 0
+"	55:20.952";I_FRAME_PROCESS_INFO_MON_DIR;Получено клиентом;N(S) = 1, N(R) = 0
+"	55:36.313";CONNECTION_CLOSED;;
+"	55:36.313";S_FRAME;Отправлено клиентом;S(2)
+"	55:37.471";CONNECTION_OPENED;;
+"	55:37.773";U_FRAME;Отправлено клиентом;STARTDT_ACT
+"	55:37.774";U_FRAME;Получено клиентом;STARTDT_CON
+"	55:37.775";I_FRAME_PROCESS_INFO_MON_DIR;Получено клиентом;N(S) = 0, N(R) = 0
+"	55:37.775";I_FRAME_PROCESS_INFO_MON_DIR;Получено клиентом;N(S) = 1, N(R) = 0
+"	55:38.73";S_FRAME;Отправлено клиентом;S(2)
+"	55:38.73";S_FRAME;Отправлено клиентом;S(2)
+"	55:38.73";U_FRAME;Отправлено клиентом;STOPDT_ACT
+"	55:38.75";U_FRAME;Получено клиентом;STOPDT_CON
+"	55:38.75";CONNECTION_CLOSED;;
