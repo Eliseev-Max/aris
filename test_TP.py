@@ -85,7 +85,7 @@ def test_transmission(ip, K_parameter, write_log, csv):
     print(repConnection)
     assert int(client.eventsCount) == 1,"Непредвиденное событие до старта передачи данных"
 
-    # Telnet. Управление сменой значений LOC.Control.Alarm
+    # Telnet. Управление сменой значений LOC.Control.Alarm для генерации посылок
     spGenerator(ip, switchings=14)
     print("Генерация спорадики запущена. Команда на старт передачи данных не отправлена клиентом")
     stagesHead = "\nЭтапы прохождения теста:\n"

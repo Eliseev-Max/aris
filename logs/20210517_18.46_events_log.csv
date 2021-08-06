@@ -1,0 +1,13 @@
+Метка_времени,Тип_события,Направление_передачи,Содержание
+	46:35.1,CONNECTION_OPENED,,
+	46:37.967,U_FRAME,Отправлено клиентом,STARTDT_ACT
+	46:37.970,U_FRAME,Получено клиентом,STARTDT_CON
+	46:37.970,I_FRAME_PROCESS_INFO_MON_DIR,Получено клиентом,"N(S) = 0, N(R) = 0"
+	46:37.971,I_FRAME_PROCESS_INFO_MON_DIR,Получено клиентом,"N(S) = 1, N(R) = 0"
+	46:53.128,CONNECTION_CLOSED,,
+	46:53.128,S_FRAME,Отправлено клиентом,S(2)
+	46:54.468,CONNECTION_OPENED,,
+	46:54.970,S_FRAME,Отправлено клиентом,S(2)
+	46:54.970,S_FRAME,Отправлено клиентом,S(0)
+	46:54.970,U_FRAME,Отправлено клиентом,STOPDT_ACT
+	46:54.971,CONNECTION_CLOSED,,

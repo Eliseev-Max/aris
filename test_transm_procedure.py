@@ -33,6 +33,7 @@ nameOfReport = "Проверка процедуры передачи инфор�
 
 servParams = f"\nПараметры подключения к серверу IEC 60870-5_104:\n\tIP-адрес: "\
                 f"{REAL_SERVER_ADDR}\n\tTCP-порт: {REAL_SERVER_PORT}"
+
 servProtocolParams = """
 Параметры протокола IEC 60870-5 104 для сервера:
     k = 12
@@ -41,9 +42,11 @@ servProtocolParams = """
     t2 = 10
     t3 = 20
 """
+
 c = rkts.Client60870(port=REAL_SERVER_PORT,
                     address=REAL_SERVER_ADDR,
                     bufferSize=1000)
+                    
 client_k = str(c.paramAPCI.k)
 client_w = str(c.paramAPCI.w)
 client_t1 = str(c.paramAPCI.t1)
